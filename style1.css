@@ -1,0 +1,117 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.container2{
+    position: relative;
+}
+.hid{
+    position: relative;
+    height: 350px;
+    background-image: url('./sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+.happy{
+    background-color: orange;
+} 
+.independence{
+    background-color: white;
+} 
+.day{
+    background-color: green; 
+}
+.city{
+    height: 250px;
+    width: 1650px;
+    position: absolute;
+    top: 100px;
+    animation-name: city;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes city{
+    0%{translate:0px 0px;}
+    100%{translate:-100px 0px;}
+}
+.road{
+    height: 800px;
+    animation-name: road;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes road{
+    0%{translate:0px 0px;}
+    100%{translate:-1000px 0px;}
+}
+.car{
+    width: 380px;
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    animation-name: car;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes car {
+    0%{translate:0px -1px;}
+    50%{translate:0px 0px;}
+    100%{translate:0px -1px;}
+}
+.tyre1{
+    width: 80px;
+    position: absolute;
+    top: 517px;
+    left: 527px;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;   
+}
+.tyre2{
+    width: 80px;
+    position: absolute;
+    top: 517px;
+    left: 760px;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 620deg;
+    }
+}
+.flag{
+    position: absolute;
+    width: 70px;
+    top: 440px;
+    left: 702px;
+}
+.sun{
+    width: 100px;
+    top: 80px;
+    right:11px;
+    position: absolute;
+    animation-name: sun;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sun{
+    from{translate: 0px;}
+    to{translate:-80px;}
+}
