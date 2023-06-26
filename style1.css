@@ -109,7 +109,7 @@ h1{
     position: absolute;
     animation-name: sun;
     animation-timing-function: linear;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 @keyframes sun{
